@@ -70,7 +70,7 @@ plt.ylabel("Residuals")
 plt.title("Residual Plot")
 plt.show()
 
-# #Finally we can use the trained model to make predictions on new data and visualize the results
+# Finally we can use the trained model to make predictions on new data and visualize the results
 new_data = [[3, 2, 1500, 4000, 1, 0, 0, 3]]
 predicted_price = model.predict(new_data)
 
